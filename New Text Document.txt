@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background: #f5f7fb;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            background: #4f46e5;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            background: white;
+            color: #4f46e5;
+            padding: 12px 25px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background: #e0e7ff;
+        }
+
+        /* Section */
+        section {
+            padding: 50px 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+            text-align: center;
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+            color: #4f46e5;
+        }
+
+        /* Call to action */
+        .cta {
+            background: #4f46e5;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .cta h2 {
+            margin-bottom: 15px;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #111827;
+            color: #9ca3af;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Your Product Name</h1>
+        <p>A short description that explains your product or service.</p>
+        <a href="#" class="btn">Get Started</a>
+    </header>
+
+    <section>
+        <h2 style="text-align:center; margin-bottom:30px;">Features</h2>
+
+        <div class="features">
+            <div class="card">
+                <h3>Fast</h3>
+                <p>Optimized for speed and performance.</p>
+            </div>
+
+            <div class="card">
+                <h3>Responsive</h3>
+                <p>Looks great on mobile, tablet, and desktop.</p>
+            </div>
+
+            <div class="card">
+                <h3>Easy to Use</h3>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mirch Masala | Kothrud</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #fff8f1;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background: url('https://images.unsplash.com/photo-1604908554027-895a1b1d66c4') center/cover no-repeat;
+            height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            background: #d9480f;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        /* Section */
+        section {
+            padding: 60px 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #d9480f;
+        }
+
+        /* About */
+        .about {
+            text-align: center;
+            font-size: 1.1rem;
+        }
+
+        /* Contact */
+        .contact-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+
+        form {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        form button {
+            width: 100%;
+            background: #d9480f;
+            color: white;
+            border: none;
+            padding: 12px;
+            font-size: 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* Map */
+        iframe {
+            width: 100%;
+            height: 100%;
+            min-height: 350px;
+            border-radius: 8px;
+            border: none;
+        }
+
+        /* Footer */
+        footer {
+            background: #111;
+            color: #aaa;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .contact-container {
+                grid-template-columns: 1fr;
+            }
+
+            header h1 {
+                font-size: 2.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <header>
+        <div>
+            <h1>Mirch Masala</h1>
+            <p>Authentic Indian Flavors | Kothrud, Pune</p>
+            <a href="#contact" class="btn">Contact Us</a>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section>
+        <h2>About Us</h2>
+        <p class="about">
+            Mirch Masala brings you authentic Indian cuisine with rich spices and traditional flavors.
+            Located in the heart of Kothrud, we serve delicious food made with love and quality ingredients.
+        </p>
+    </section>
+
+    <!-- Contact + Map -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+
+        <div class="contact-container">
+            <!-- Contact Form -->
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <input type="text" placeholder="Phone Number">
+                <textarea rows="5" placeholder="Your Message"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+
+            <!-- Google Map -->
+            <iframe 
+                src="https://www.google.com/maps?q=Kothrud,Pune&output=embed">
+            </iframe>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        © 2026 Mirch Masala | Kothrud, Pune
+    </footer>
+
+</body>
+</html>
